@@ -23,7 +23,8 @@ namespace HandyControl.Controls
         {
             IsReadOnly = propertyItem.IsReadOnly,
             Minimum = Minimum,
-            Maximum = Maximum
+            Maximum = Maximum，
+            DecimalPlace=3  
         };
 
         public override DependencyProperty GetDependencyProperty() => NumericUpDown.ValueProperty;
